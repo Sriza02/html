@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+</head>
+<body bgcolor="lightskyblue">
+    <h1> user registration </h1>
+    <form name="reg-frm">
+        <table cellpadding="7">
+            <tr>
+            <td>Name</td>
+            <td><input type="text" name="uname"></td>
+            </tr>
+            <tr>
+            <td>phone number</td>
+            <td><input type="text" name="country code"  value="+91" size="2"/>   
+                <input type="text" name="phone" size="10"/></td>
+            </tr>
+            <tr>
+            <td>Email-id</td>
+            <td><input type="email" name="email_id"></td>
+            </tr>
+             <tr>
+             <td>Date Of Birth</td>
+             <td><input type="date" name="DOB"></td>
+             </tr>
+             <tr>
+             <td>Gender</td>
+             <td><input type="radio" name="Gender" value="Male">Male
+                <input type="radio" name="Gender" value="Female">Female
+            </td>
+            </tr>
+            <tr>
+            <td>Language</td>
+            <td>
+                <input type="checkbox" name="lang" value="c">c
+                <input type="checkbox" name="lang" value="c++">c++
+                <input type="checkbox" name="lang" value="JAVA">JAVA
+                <input type="checkbox" name="lang" value="PHP">PHP
+                <input type="checkbox" name="lang" value="PYTHON">PYTHON
+            </td>
+            </tr>
+            <tr>
+            <td>Address</td>
+            <td><textarea name="Address" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+            <td>City</td>
+            <td>
+                <select name="city">
+                <option value="" slected>-select city-</option>
+                <option value="a">a</option>
+                <option value="b">b</option>
+                <option value="c">c</option>
+                <option value="d">d</option>
+                <option value="e">e</option>
+                <option value="f">f</option>
+                <option value="g">g</option>
+                <option value="h">h</option>
+                <option value="i">i</option>
+                </select>
+            </td>
+            <tr>
+            <td>select file</td>
+            <td><input type="file" name="ff"></td>
+            </tr>
+            <tr>
+            <td>Password</td>
+            <td><input type="password" name="pwd"></td>
+            </tr>
+            <tr>
+            <td>retype password</td>
+            <td><input type="password" name="repass"></td>
+            </tr>
+        </table>
+        <input type="button" value="Submit">
+    </form>
+</body>
+</html>
